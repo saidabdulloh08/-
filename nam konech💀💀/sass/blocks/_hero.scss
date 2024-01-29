@@ -1,0 +1,62 @@
+.hero {
+    width: 1887;
+}
+.container {
+}
+.hero-inner {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 42px;
+}
+.hero-left {
+}
+.hero-left__title {
+}
+.hero-left-main {
+    display: flex;
+    gap: 16px;
+}
+.hero-left__inner {
+    padding: 9px 23.5px;
+    border: 3px solid black;
+}
+.hero-left__statuses {
+}
+.hero-right {
+}
+.hero-right__title {
+}
+.hero-right__inner {
+    gap: 32px;
+}
+.hero-right__prices {
+    padding: 12px 87px;
+    margin-right: 30px;
+    color: black;
+    background-color: transparent;
+}
+.two {
+    color: #A6AEAD;
+}
+.three {
+    background-color: black;
+    color: white;
+}
+@media only screen and (max-width: 375px) {
+    .hero-inner {
+        flex-direction: column;
+    }
+    .hero-right__inner {
+        width: 281px;
+    }
+    .hero-right__prices {
+        padding: 12px 34px;
+        margin-right: 0px;
+    }
+    .two {
+        padding: 12px 31px;
+        margin-right: 0;
+    }.three {
+        padding: 12px 22.5px;
+    }
+}
